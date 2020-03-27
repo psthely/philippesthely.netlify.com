@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Philippe Sthely - Blog de développeur</title>
+    <link>https://philippesthely.netlify.com/</link>
+    <description>Recent content on Philippe Sthely - Blog de développeur</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Fri, 27 Mar 2020 10:07:24 +0100</lastBuildDate>
+    
+	<atom:link href="https://philippesthely.netlify.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Thème Ananke</title>
+      <link>https://philippesthely.netlify.com/articles/ananke_theme/</link>
+      <pubDate>Sat, 14 Mar 2020 04:02:07 -0700</pubDate>
+      
+      <guid>https://philippesthely.netlify.com/articles/ananke_theme/</guid>
+      <description>Installer et configurer le thème Ananke pour Hugo (script complet)</description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://philippesthely.netlify.com/articles/hugo/</link>
+      <pubDate>Fri, 13 Mar 2020 00:57:21 -0700</pubDate>
+      
+      <guid>https://philippesthely.netlify.com/articles/hugo/</guid>
+      <description>Initialiser et déployer Hugo pas à pas avec un script</description>
+    </item>
+    
+    <item>
+      <title>HTML et CSS</title>
+      <link>https://philippesthely.netlify.com/articles/html5_css3/</link>
+      <pubDate>Tue, 10 Mar 2020 07:17:33 -0700</pubDate>
+      
+      <guid>https://philippesthely.netlify.com/articles/html5_css3/</guid>
+      <description>HTML et CSS, les bases</description>
+    </item>
+    
+  </channel>
+</rss>

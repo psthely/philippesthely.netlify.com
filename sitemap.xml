@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://philippesthely.netlify.com/about/</loc>
+    <lastmod>2020-03-27T10:07:24+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://philippesthely.netlify.com/</loc>
+    <lastmod>2020-03-27T10:07:24+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://philippesthely.netlify.com/articles/</loc>
+    <lastmod>2020-03-14T04:02:07-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://philippesthely.netlify.com/tags/g%C3%A9n%C3%A9rateurs-de-sites-statiques/</loc>
+    <lastmod>2020-03-14T04:02:07-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://philippesthely.netlify.com/tags/</loc>
+    <lastmod>2020-03-14T04:02:07-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://philippesthely.netlify.com/articles/ananke_theme/</loc>
+    <lastmod>2020-03-14T04:02:07-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://philippesthely.netlify.com/articles/hugo/</loc>
+    <lastmod>2020-03-13T00:57:21-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://philippesthely.netlify.com/articles/html5_css3/</loc>
+    <lastmod>2020-03-10T07:17:33-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://philippesthely.netlify.com/tags/stack-web/</loc>
+    <lastmod>2020-03-10T07:17:33-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://philippesthely.netlify.com/categories/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+</urlset>
