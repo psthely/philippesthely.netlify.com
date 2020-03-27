@@ -2,6 +2,6 @@
     padding: 0;
 }
 
-.pa4-ns:not(section) h1 {
+.pa4-ns h1 :not(section) {
     display: none;
 }
