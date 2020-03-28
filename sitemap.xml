@@ -3,20 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://philippesthely.netlify.com/about/</loc>
-    <lastmod>2020-03-27T10:07:24+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://philippesthely.netlify.com/</loc>
-    <lastmod>2020-03-27T10:07:24+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://philippesthely.netlify.com/articles/</loc>
     <lastmod>2020-03-14T04:02:07-07:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -25,6 +11,13 @@
   
   <url>
     <loc>https://philippesthely.netlify.com/tags/g%C3%A9n%C3%A9rateurs-de-sites-statiques/</loc>
+    <lastmod>2020-03-14T04:02:07-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://philippesthely.netlify.com/</loc>
     <lastmod>2020-03-14T04:02:07-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
