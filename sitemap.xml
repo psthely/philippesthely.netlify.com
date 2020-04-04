@@ -4,27 +4,48 @@
   
   <url>
     <loc>https://philippesthely.netlify.com/articles/</loc>
-    <lastmod>2020-03-14T04:02:07-07:00</lastmod>
+    <lastmod>2020-04-04T14:17:15+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://philippesthely.netlify.com/tags/g%C3%A9n%C3%A9rateurs-de-sites-statiques/</loc>
-    <lastmod>2020-03-14T04:02:07-07:00</lastmod>
+    <loc>https://philippesthely.netlify.com/tags/javascript/</loc>
+    <lastmod>2020-04-04T14:17:15+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://philippesthely.netlify.com/articles/string_analysis/</loc>
+    <lastmod>2020-04-04T14:17:15+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://philippesthely.netlify.com/</loc>
-    <lastmod>2020-03-14T04:02:07-07:00</lastmod>
+    <lastmod>2020-04-04T14:17:15+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://philippesthely.netlify.com/tags/stack-web/</loc>
+    <lastmod>2020-04-04T14:17:15+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://philippesthely.netlify.com/tags/</loc>
+    <lastmod>2020-04-04T14:17:15+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://philippesthely.netlify.com/tags/g%C3%A9n%C3%A9rateurs-de-sites-statiques/</loc>
     <lastmod>2020-03-14T04:02:07-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -46,13 +67,6 @@
   
   <url>
     <loc>https://philippesthely.netlify.com/articles/html5_css3/</loc>
-    <lastmod>2020-03-10T07:17:33-07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://philippesthely.netlify.com/tags/stack-web/</loc>
     <lastmod>2020-03-10T07:17:33-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

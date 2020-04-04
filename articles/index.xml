@@ -6,10 +6,19 @@
     <description>Recent content in Articles on Philippe Sthely - Blog de développeur</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Sat, 14 Mar 2020 04:02:07 -0700</lastBuildDate>
+    <lastBuildDate>Sat, 04 Apr 2020 14:17:15 +0200</lastBuildDate>
     
 	<atom:link href="https://philippesthely.netlify.com/articles/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Manipuler le DOM</title>
+      <link>https://philippesthely.netlify.com/articles/string_analysis/</link>
+      <pubDate>Sat, 04 Apr 2020 14:17:15 +0200</pubDate>
+      
+      <guid>https://philippesthely.netlify.com/articles/string_analysis/</guid>
+      <description>Un simple programme javascript pour manipuler le DOM</description>
+    </item>
     
     <item>
       <title>Thème Ananke</title>
