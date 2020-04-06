@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Générateurs de sites statiques on Philippe Sthely - Blog de développeur</title>
+    <link>https://philippesthely.netlify.com/tags/g%C3%A9n%C3%A9rateurs-de-sites-statiques/</link>
+    <description>Recent content in Générateurs de sites statiques on Philippe Sthely - Blog de développeur</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Sat, 14 Mar 2020 04:02:07 -0700</lastBuildDate>
+    
+	<atom:link href="https://philippesthely.netlify.com/tags/g%C3%A9n%C3%A9rateurs-de-sites-statiques/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Thème Ananke</title>
+      <link>https://philippesthely.netlify.com/articles/ananke_theme/</link>
+      <pubDate>Sat, 14 Mar 2020 04:02:07 -0700</pubDate>
+      
+      <guid>https://philippesthely.netlify.com/articles/ananke_theme/</guid>
+      <description>Installer et configurer le thème Ananke pour Hugo (script complet)</description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://philippesthely.netlify.com/articles/hugo/</link>
+      <pubDate>Fri, 13 Mar 2020 00:57:21 -0700</pubDate>
+      
+      <guid>https://philippesthely.netlify.com/articles/hugo/</guid>
+      <description>Initialiser et déployer Hugo pas à pas avec un script</description>
+    </item>
+    
+  </channel>
+</rss>
