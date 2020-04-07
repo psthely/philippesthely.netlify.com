@@ -1,4 +1,21 @@
-/* site header */
+/* site header ***************************************/
 .pb6-l {
     padding-bottom: unset;
+}
+/* site header title */
+.pb6-l .f3 {
+    color: lightslategray;
+    font-size: xx-large;
+    font-weight: bold;
+}
+/* site header nav links */
+.pb6-l .f5 a {
+    padding: 5px;
+    background-color: lightslategray;
+    color: #f4f4f4;
+}
+
+/* post list item title */
+.pv4 .f3 a, .pa4 .f3 a {
+    color: lightslategray;
 }
