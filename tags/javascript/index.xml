@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>JavaScript on Philippe Sthely - Blog de développeur</title>
+    <title>JavaScript on Philippe Sthely</title>
     <link>https://philippesthely.netlify.com/tags/javascript/</link>
-    <description>Recent content in JavaScript on Philippe Sthely - Blog de développeur</description>
+    <description>Recent content in JavaScript on Philippe Sthely</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
     <lastBuildDate>Sat, 04 Apr 2020 14:17:15 +0200</lastBuildDate>
