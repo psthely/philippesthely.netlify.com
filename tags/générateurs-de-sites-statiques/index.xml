@@ -6,10 +6,19 @@
     <description>Recent content in Générateurs de sites statiques on Philippe Sthely</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Sat, 14 Mar 2020 04:02:07 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 12 Apr 2020 14:30:36 +0200</lastBuildDate>
     
 	<atom:link href="https://philippesthely.netlify.com/tags/g%C3%A9n%C3%A9rateurs-de-sites-statiques/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Nouveau projet Twitch</title>
+      <link>https://philippesthely.netlify.com/articles/twitch_project/</link>
+      <pubDate>Sun, 12 Apr 2020 14:30:36 +0200</pubDate>
+      
+      <guid>https://philippesthely.netlify.com/articles/twitch_project/</guid>
+      <description>Je démarre une chaîne Twitch</description>
+    </item>
     
     <item>
       <title>Thème Ananke</title>
