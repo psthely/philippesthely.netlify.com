@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Déploiement continu on Philippe Sthely</title>
+    <link>https://philippesthely.netlify.com/tags/d%C3%A9ploiement-continu/</link>
+    <description>Recent content in Déploiement continu on Philippe Sthely</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Sun, 12 Apr 2020 14:30:36 +0200</lastBuildDate>
+    
+	<atom:link href="https://philippesthely.netlify.com/tags/d%C3%A9ploiement-continu/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Nouveau projet Twitch</title>
+      <link>https://philippesthely.netlify.com/articles/twitch_project/</link>
+      <pubDate>Sun, 12 Apr 2020 14:30:36 +0200</pubDate>
+      
+      <guid>https://philippesthely.netlify.com/articles/twitch_project/</guid>
+      <description>Je démarre une chaîne Twitch</description>
+    </item>
+    
+  </channel>
+</rss>

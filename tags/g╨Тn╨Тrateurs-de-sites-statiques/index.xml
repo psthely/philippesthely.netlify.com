@@ -1,24 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Générateurs de sites statiques on Philippe Sthely</title>
+    <title>Générateurs de sites statiques on Philippe Sthely - Blog de développeur</title>
     <link>https://philippesthely.netlify.com/tags/g%C3%A9n%C3%A9rateurs-de-sites-statiques/</link>
-    <description>Recent content in Générateurs de sites statiques on Philippe Sthely</description>
+    <description>Recent content in Générateurs de sites statiques on Philippe Sthely - Blog de développeur</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Sun, 12 Apr 2020 14:30:36 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 14 Mar 2020 04:02:07 -0700</lastBuildDate>
     
 	<atom:link href="https://philippesthely.netlify.com/tags/g%C3%A9n%C3%A9rateurs-de-sites-statiques/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Nouveau projet Twitch</title>
-      <link>https://philippesthely.netlify.com/articles/twitch_project/</link>
-      <pubDate>Sun, 12 Apr 2020 14:30:36 +0200</pubDate>
-      
-      <guid>https://philippesthely.netlify.com/articles/twitch_project/</guid>
-      <description>Je démarre une chaîne Twitch</description>
-    </item>
     
     <item>
       <title>Thème Ananke</title>
