@@ -6,10 +6,19 @@
     <description>Recent content in Front End, sites statiques et déploiement continu on Philippe Sthely</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Fri, 17 Apr 2020 17:53:45 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 20 Apr 2020 13:54:02 +0200</lastBuildDate>
     
 	<atom:link href="https://philippesthely.netlify.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Créer une nouvelle application react</title>
+      <link>https://philippesthely.netlify.com/articles/create_react_app/</link>
+      <pubDate>Mon, 20 Apr 2020 13:54:02 +0200</pubDate>
+      
+      <guid>https://philippesthely.netlify.com/articles/create_react_app/</guid>
+      <description>Démarrer une nouvelle application React.</description>
+    </item>
     
     <item>
       <title>Bibliothèque de composants React</title>
