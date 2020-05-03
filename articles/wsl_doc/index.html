@@ -37,7 +37,7 @@
 <meta itemprop="description" content="Setup and use the WSL.">
 <meta itemprop="datePublished" content="2020-05-03T16:15:03&#43;02:00" />
 <meta itemprop="dateModified" content="2020-05-03T16:15:03&#43;02:00" />
-<meta itemprop="wordCount" content="497">
+<meta itemprop="wordCount" content="498">
 
 
 
@@ -172,8 +172,8 @@
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 
-</code></pre></div><p>Restart Windows</p>
-<p>Install <code>Ubuntu</code> from the <code>Microsoft Store</code> and run it; you&rsquo;ll be prompt to create an account
+</code></pre></div><p>Restart Windows.</p>
+<p>Install <code>Ubuntu</code> from the <code>Microsoft Store</code> and run it; you&rsquo;ll be prompt to create an account.
 Then update <code>Ubuntu</code>:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">
 sudo apt update <span style="color:#f92672">&amp;&amp;</span> sudo apt upgrade
@@ -211,7 +211,7 @@ nano wsl-rocks.html
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">
 wsl.exe
 
-</code></pre></div><p>You can now access your entire computer file system using the <code>Ubuntu</code> command line</p>
+</code></pre></div><p>You can now access your entire computer file system using the <code>Ubuntu</code> command line.</p>
 <p>To locate the <code>LearnWSL</code> directory, first update the locate database to add the changes made on the file system, and then locate the directory:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">
 sudo updatedb
@@ -225,8 +225,8 @@ sudo locate LearnWSL
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">
 mkdir ~/LearnWSL/temp
 
-</code></pre></div><p>Return to <code>PowerShell</code> by entering the <code>exit</code> command
-Run <code>Ubuntu</code> and you can see the temp directory was created:</p>
+</code></pre></div><p>Return to <code>PowerShell</code> by entering the <code>exit</code> command.
+Run <code>Ubuntu</code> and you can see the <code>temp</code> directory was created:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">
 cd ~/LearnWSL
 ls
@@ -241,13 +241,13 @@ ipconfig.exe
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">
 cmd.exe
 
-</code></pre></div><p>To return to <code>Ubuntu</code>, enter the <code>exit</code> command</p>
+</code></pre></div><p>To return to <code>Ubuntu</code>, enter the <code>exit</code> command.</p>
 <p>You can mix Windows and Linux commands in <code>WSL</code>, for example:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">
 ipconfig.exe | grep IPv4
 
 </code></pre></div><hr>
-<p><code>Ubuntu</code> comes with <code>Python</code> installed by default; we can use it to run the <code>Python HTTP</code> local server module</p>
+<p><code>Ubuntu</code> comes with <code>Python</code> installed by default; we can use it to run the <code>Python HTTP</code> local server module.</p>
 <p>From <code>PowerShell</code>, run the <code>Ubuntu</code> command line, check for python installation, and run the local server from <code>LearnWSL</code> directory:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">
 wsl.exe
@@ -256,7 +256,7 @@ cd ~/LearnWSL
 python3 -m http.server
 
 </code></pre></div><p>You can now access the <code>wsl-rocks.html</code> page from http://localhost:8000/wsl-rocks.html</p>
-<h2 id="create-a-website-with-nodejs">[Create a website with <code>Node.js</code>][]</h2>
+<h2 id="create-a-website-with-nodejs"><a href="https://docs.microsoft.com/en-us/learn/modules/get-started-with-windows-subsystem-for-linux/4-create-website-with-node">Create a website with <code>Node.js</code></a></h2>
 <p>On the <code>Ubuntu</code> command line, install <code>cURL</code> then use it to get a recent version of <code>Node.js</code> and <code>npm</code>:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">
 sudo apt install curl
@@ -266,7 +266,7 @@ curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">
 sudo apt-get install -y nodejs
 
-</code></pre></div><p>Install the minimalist web app framework <code>Express</code>to create a simple server:</p>
+</code></pre></div><p>Install the minimalist web app framework <code>Express</code> to create a simple server:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">
 sudo npm install express-generator -g
 
