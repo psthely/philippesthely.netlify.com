@@ -6,10 +6,19 @@
     <description>Recent content in Stack Web on Philippe Sthely</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Mon, 20 Apr 2020 13:54:02 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 03 May 2020 16:15:03 +0200</lastBuildDate>
     
 	<atom:link href="https://philippesthely.netlify.com/tags/stack-web/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Get started with the Windows Subsystem for Linux</title>
+      <link>https://philippesthely.netlify.com/articles/wsl_doc/</link>
+      <pubDate>Sun, 03 May 2020 16:15:03 +0200</pubDate>
+      
+      <guid>https://philippesthely.netlify.com/articles/wsl_doc/</guid>
+      <description>Setup and use the WSL.</description>
+    </item>
     
     <item>
       <title>Créer une nouvelle application react</title>
