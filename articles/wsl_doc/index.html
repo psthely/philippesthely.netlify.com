@@ -37,7 +37,7 @@
 <meta itemprop="description" content="Setup and use the WSL in VS Code.">
 <meta itemprop="datePublished" content="2020-05-03T16:15:03&#43;02:00" />
 <meta itemprop="dateModified" content="2020-05-03T16:15:03&#43;02:00" />
-<meta itemprop="wordCount" content="820">
+<meta itemprop="wordCount" content="994">
 
 
 
@@ -169,28 +169,34 @@
     </header>
     <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><h2 id="enable-windows-subsystem-for-linux-and-install-a-distribution"><a href="https://docs.microsoft.com/en-us/learn/modules/get-started-with-windows-subsystem-for-linux/2-enable-and-install">Enable Windows Subsystem for Linux and install a distribution</a></h2>
 <p>Open PowerShell with administrator privileges, then run:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 
 </code></pre></div><p>Restart Windows.</p>
 <p>Install Ubuntu from the Microsoft Store and run it; you&rsquo;ll be prompt to create an account.
 Then update Ubuntu:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">sudo apt update <span style="color:#f92672">&amp;&amp;</span> sudo apt upgrade
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">
+sudo apt update <span style="color:#f92672">&amp;&amp;</span> sudo apt upgrade
 
 </code></pre></div><h2 id="integration-between-windows-and-linux-file-systems"><a href="https://docs.microsoft.com/en-us/learn/modules/get-started-with-windows-subsystem-for-linux/3-integration-between-linux-and-windows">Integration between Windows and Linux file systems</a></h2>
 <p>Create a directory called <code>LearnWSL</code> into the user&rsquo;s home directory:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">cd ~
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">
+cd ~
 mkdir LearnWSL
 
 </code></pre></div><p>Then create an html file into that directory:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">cd ~/LearnWSL
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">
+cd ~/LearnWSL
 touch wsl-rocks.html
 
 </code></pre></div><p>Now open this file with the Nano text editor:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">cd ~/LearnWSL
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">
+cd ~/LearnWSL
 nano wsl-rocks.html
 
 </code></pre></div><p>Enter some html code in this file:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#75715e">&lt;!DOCTYPE html&gt;</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">
+<span style="color:#75715e">&lt;!DOCTYPE html&gt;</span>
 &lt;<span style="color:#f92672">html</span>&gt;
 &lt;<span style="color:#f92672">body</span> <span style="color:#a6e22e">style</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;background-color: tan; font-family: calibri; text-align: center&#34;</span>&gt;
 &lt;<span style="color:#f92672">h1</span> <span style="color:#a6e22e">style</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;color: blue&#34;</span>&gt;My First Heading&lt;/<span style="color:#f92672">h1</span>&gt;
@@ -202,40 +208,49 @@ nano wsl-rocks.html
 </code></pre></div><p>Save the file and exit Nano.</p>
 <hr>
 <p>In PowerShell, run Ubuntu by entering:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">wsl.exe
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">
+wsl.exe
 
 </code></pre></div><p>You can now access your entire computer file system using the Ubuntu command line.</p>
 <p>To locate the <code>LearnWSL</code> directory, first update the locate database to add the changes made on the file system, and then locate the directory:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">sudo updatedb
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">
+sudo updatedb
 sudo locate LearnWSL
 
 </code></pre></div><p>This should return the path where <code>LearnWSL</code> is located on the file system, for example:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">/home/user/LearnWSL
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">
+/home/user/LearnWSL
 
 </code></pre></div><p>Create a new <code>temp</code> directory into <code>LearnWSL</code>:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">mkdir ~/LearnWSL/temp
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">
+mkdir ~/LearnWSL/temp
 
 </code></pre></div><p>Return to PowerShell by entering the <code>exit</code> command.
 Run Ubuntu and you can see the temp directory was created:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">cd ~/LearnWSL
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">
+cd ~/LearnWSL
 ls
 
 </code></pre></div><hr>
 <p>You can run Windows commands from the WSL command line, for example:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">notepad.exe
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">
+notepad.exe
 ipconfig.exe
 
 </code></pre></div><p>You can also run the Windows command prompt from Ubuntu:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">cmd.exe
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">
+cmd.exe
 
 </code></pre></div><p>To return to Ubuntu, enter the <code>exit</code> command.</p>
 <p>You can mix Windows and Linux commands in WSL, for example:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">ipconfig.exe | grep IPv4
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">
+ipconfig.exe | grep IPv4
 
 </code></pre></div><hr>
 <p>Ubuntu comes with Python installed by default; we can use it to run the <code>Python HTTP</code> local server module.</p>
 <p>From PowerShell, run the Ubuntu command line, check for python installation, and run the local server from <code>LearnWSL</code> directory:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">wsl.exe
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">
+wsl.exe
 python3 --version
 cd ~/LearnWSL
 python3 -m http.server
@@ -243,23 +258,28 @@ python3 -m http.server
 </code></pre></div><p>You can now access the <code>wsl-rocks.html</code> page from http://localhost:8000/wsl-rocks.html</p>
 <h2 id="create-a-website-with-nodejs"><a href="https://docs.microsoft.com/en-us/learn/modules/get-started-with-windows-subsystem-for-linux/4-create-website-with-node">Create a website with <code>Node.js</code></a></h2>
 <p>On the Ubuntu command line, install <code>cURL</code> then use it to get a recent version of Node.js and npm:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">sudo apt install curl
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">
+sudo apt install curl
 curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 
 </code></pre></div><p>Install Node.js:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">sudo apt-get install -y nodejs
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">
+sudo apt-get install -y nodejs
 
 </code></pre></div><p>Install the minimalist web app framework Express to create a simple server:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">sudo npm install express-generator -g
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">
+sudo npm install express-generator -g
 
 </code></pre></div><p>Check the installation of each packages with <code>--version</code>:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">nodejs --version
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">
+nodejs --version
 npm --version
 express --version
 
 </code></pre></div><hr>
 <p>The built-in <code>OS</code> module for node returns some informations about the computer&rsquo;s operating system:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh"><span style="color:#75715e"># open the Node.js CLI</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">
+<span style="color:#75715e"># open the Node.js CLI</span>
 node
 <span style="color:#75715e"># get the platform name</span>
 os.platform<span style="color:#f92672">()</span>
@@ -272,15 +292,18 @@ os.cpus<span style="color:#f92672">()</span>
 
 </code></pre></div><hr>
 <p>Create a simple <code>HelloWorld</code> app project with Express:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">cd ~/LearnWSL
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">
+cd ~/LearnWSL
 express HelloWorld --view<span style="color:#f92672">=</span>pug
 
 </code></pre></div><p>Then install the dependencies defined in the <code>package.json</code> file:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">cd ~/LearnWSL/HelloWorld
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">
+cd ~/LearnWSL/HelloWorld
 sudo npm install
 
 </code></pre></div><p>Start the app on a local server with the console logging/debugging enabled:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">cd ~/LearnWSL/HelloWorld
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">
+cd ~/LearnWSL/HelloWorld
 DEBUG<span style="color:#f92672">=</span>HelloWorld:* npm start
 
 </code></pre></div><p>You can now access the app from http://localhost:3000</p>
@@ -292,24 +315,28 @@ DEBUG<span style="color:#f92672">=</span>HelloWorld:* npm start
 <p>It is recommended to store your projects files in your Windows home directory; this allows Windows apps to access and manipulate your files easily, but also from Ubuntu. Launching WSL from PowerShell with <code>wsl.exe</code> will place the Ubuntu terminal in your Windows home directory like <code>/mnt/c/Users/&lt;windows-user-name&gt;</code>.</p>
 <hr>
 <p>From PowerShell, create a new project directory in your Windows home folder, and initialize it as a git repository:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">mkdir GitHub/HelloWorld
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">
+mkdir GitHub/HelloWorld
 cd GitHub/HelloWorld
 wsl.exe git init
 
 </code></pre></div><p>Add a <code>.gitignore</code> file to the project, and open the repository in VS Code:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">wsl.exe touch .gitignore
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">
+wsl.exe touch .gitignore
 wsl.exe echo <span style="color:#e6db74">&#34;bin&#34;</span> &gt; .gitignore
 wsl.exe echo <span style="color:#e6db74">&#34;node_module&#34;</span> &gt;&gt; .gitignore
 code .
 
 </code></pre></div><p>The project is now opened in VS Code; connect VS Code to the WSL using <code>Remote-WSL: Reopen Folder</code> in the <code>Command Palette</code> (F1). VS Code restarts with the project folder using WSL. Opening a new terminal will load the Ubuntu command line.</p>
 <p>Create a new web app with Express, install the dependencies and start a local server:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">express --view<span style="color:#f92672">=</span>pug
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">
+express --view<span style="color:#f92672">=</span>pug
 npm install
 npm start
 
 </code></pre></div><p>In VS Code, modify the <code>index.pug</code> file with this pug code:</p>
-<pre><code class="language-pug" data-lang="pug">extends layout
+<pre><code class="language-pug" data-lang="pug">
+extends layout
 
 block content
   h1 #{title}
@@ -318,6 +345,27 @@ block content
 
 </code></pre><p>Save the changes and open the local server on http://localhost:3000. Refresh the browser to see the changes you made.</p>
 <p>In this section, we created a git repository project on the Windows home path, opened the repository in Vs Code, connected the project to <code>WSL</code> and used Express to create a web app.</p>
+<h2 id="debug-your-express-app-with-vs-code"><a href="https://docs.microsoft.com/en-us/learn/modules/get-started-with-windows-subsystem-for-linux/6-debug-express-app-with-vscode">Debug your Express app with VS Code</a></h2>
+<p>To enable debugging, VS Code will search for the <code>launch.json</code> file into the <code>.vscode</code> directory of the project. You can generate this file in <code>Run</code> &gt; <code>Add configuration</code> menu entry.</p>
+<p>Choose <code>Run</code> &gt; <code>Start Debugging</code> to start the debugger,, and select the <code>DEBUG CONSOLE</code> to see the output.</p>
+<p>Then you can add breakpoints, use <code>console.log()</code> to display messages while debugging, see the app variables state at a breakpoint, etc.</p>
+<h2 id="configure-wsl"><a href="https://docs.microsoft.com/en-us/learn/modules/get-started-with-windows-subsystem-for-linux/7-manage-multiple-distributions">Configure WSL</a></h2>
+<p>The <code>wslconfig.exe</code> command allows you to manage multiple Linux distributions, configure the default WSL distro, remove installed distros, add configuration options, etc.</p>
+<p>You can configure the WSL distribution with the <code>/etc/wsl.conf</code> file. Here is what it looks like:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">
+<span style="color:#75715e"># Enable extra metadata options by default</span>
+<span style="color:#f92672">[</span>automount<span style="color:#f92672">]</span>
+enabled <span style="color:#f92672">=</span> true
+root <span style="color:#f92672">=</span> /windir/
+options <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;metadata,umask=22,fmask=11&#34;</span>
+mountFsTab <span style="color:#f92672">=</span> false
+
+<span style="color:#75715e"># Enable DNS – even though these are turned on by default, we’ll specify here just to be explicit.</span>
+<span style="color:#f92672">[</span>network<span style="color:#f92672">]</span>
+generateHosts <span style="color:#f92672">=</span> true
+generateResolvConf <span style="color:#f92672">=</span> true
+
+</code></pre></div><p>You can find a list of configurations options in the <a href="https://docs.microsoft.com/fr-fr/windows/wsl/wsl-config#set-wsl-launch-settings">Microsoft documentation</a>.</p>
 <ul class="pa0">
   
    <li class="list">
