@@ -6,10 +6,19 @@
     <description>Recent content in Front End, sites statiques et déploiement continu on Philippe Sthely</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Sun, 03 May 2020 16:15:03 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 10 May 2020 13:53:55 +0200</lastBuildDate>
     
 	<atom:link href="https://philippesthely.netlify.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Lorem ipsum project</title>
+      <link>https://philippesthely.netlify.com/articles/lorem_ipsum/</link>
+      <pubDate>Sun, 10 May 2020 13:53:55 +0200</pubDate>
+      
+      <guid>https://philippesthely.netlify.com/articles/lorem_ipsum/</guid>
+      <description>A lorem ipsum HTML/CSS page, v0.1</description>
+    </item>
     
     <item>
       <title>Get started with the Windows Subsystem for Linux</title>

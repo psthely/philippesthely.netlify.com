@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
-    <title>Philippe Sthely  | Hugo</title>
+    <title>Philippe Sthely </title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <meta name="generator" content="Hugo 0.70.0" />
     
@@ -27,34 +27,29 @@
 
     
     
-    <meta property="og:title" content="Hugo" />
-<meta property="og:description" content="Initialiser et déployer Hugo pas à pas avec un script" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://philippesthely.netlify.com/articles/hugo/" />
-<meta property="article:published_time" content="2020-03-13T00:57:21-07:00" />
-<meta property="article:modified_time" content="2020-03-13T00:57:21-07:00" />
-<meta itemprop="name" content="Hugo">
-<meta itemprop="description" content="Initialiser et déployer Hugo pas à pas avec un script">
-<meta itemprop="datePublished" content="2020-03-13T00:57:21-07:00" />
-<meta itemprop="dateModified" content="2020-03-13T00:57:21-07:00" />
-<meta itemprop="wordCount" content="622">
-
-
-
-<meta itemprop="keywords" content="Générateurs de sites statiques," /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Hugo"/>
-<meta name="twitter:description" content="Initialiser et déployer Hugo pas à pas avec un script"/>
+      <link href="/articles/index.xml" rel="alternate" type="application/rss+xml" title="Philippe Sthely" />
+      <link href="/articles/index.xml" rel="feed" type="application/rss+xml" title="Philippe Sthely" />
+      
+    
+    
+    <meta property="og:title" content="Articles" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://philippesthely.netlify.com/articles/" />
+<meta property="og:updated_time" content="2020-05-10T13:53:55+02:00" />
+<meta itemprop="name" content="Articles">
+<meta itemprop="description" content=""><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Articles"/>
+<meta name="twitter:description" content=""/>
 
   </head>
 
   <body class="ma0 avenir bg-near-white">
 
     
-   
-  
 
   <header>
-    <div class="bg-black">
+    <div class="pb3-m pb6-l bg-black">
       <nav class="pv3 ph3 ph4-ns" role="navigation">
   <div class="flex-l justify-between items-center center">
     <a href="https://philippesthely.netlify.com" class="f3 fw2 hover-white no-underline white-90 dib">
@@ -119,322 +114,106 @@
   </div>
 </nav>
 
+      <div class="tc-l pv3 ph3 ph4-ns">
+        <h1 class="f2 f-subheadline-l fw2 light-silver mb0 lh-title">
+          Articles
+        </h1>
+        
+      </div>
     </div>
   </header>
 
 
-
     <main class="pb7" role="main">
       
-  
-  <article class="flex-l flex-wrap justify-between mw8 center ph3">
-    <header class="mt4 w-100">
+  <article class="pa3 pa4-ns nested-copy-line-height nested-img">
+    <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray"></section>
+    <section class="flex-ns flex-wrap justify-around mt5">
       
-      <h1 class="f1 athelas mt3 mb1">Hugo</h1>
-      
-      
-
-
-
-
-  <div id="sharing" class="mt3">
-
-    
-    <a href="https://www.facebook.com/sharer.php?u=https://philippesthely.netlify.com/articles/hugo/" class="facebook no-underline" aria-label="share on Facebook">
-      <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M28.765,50.32h6.744V33.998h4.499l0.596-5.624h-5.095  l0.007-2.816c0-1.466,0.14-2.253,2.244-2.253h2.812V17.68h-4.5c-5.405,0-7.307,2.729-7.307,7.317v3.377h-3.369v5.625h3.369V50.32z   M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;"/></svg>
-
-    </a>
-
-    
-    
-    <a href="https://twitter.com/share?url=https://philippesthely.netlify.com/articles/hugo/&amp;text=Hugo" class="twitter no-underline" aria-label="share on Twitter">
-      <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
-
-    </a>
-
-    
-    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://philippesthely.netlify.com/articles/hugo/&amp;title=Hugo" class="linkedin no-underline" aria-label="share on LinkedIn">
-      <svg  height="32px"  style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
-</svg>
-
-    </a>
-  </div>
-
-      
-      <time class="f6 mv4 dib tracked" datetime="2020-03-13T00:57:21-07:00">March 13, 2020</time>
-
-      
-      
-    </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><ul>
-<li><a href="https://www.youtube.com/watch?v=flBYUlsvjQ8">Vidéo Youtube - Initialiser un site Hugo</a></li>
-<li><a href="https://github.com/psthely/devlog_shell_scripts/blob/master/hugo.sh">GitHub du script shell</a> <strong>Attention</strong>: lisez et modifiez le script avant de l&rsquo;exécuter; adaptez le à votre utilisation</li>
-</ul>
-<h1 id="créer-et-déployer-un-nouveau-site-hugo">créer et déployer un nouveau site hugo</h1>
-<!-- raw HTML omitted -->
-<blockquote>
-<p>vous devez modifier les données avant d&rsquo;exécuter le script</p>
-</blockquote>
-<h2 id="données-du-script">données du script</h2>
-<ul>
-<li>installation_path</li>
-</ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text"># dossier d&#39;installation du site
-installation_path=~/
-</code></pre></div><ul>
-<li>site_name</li>
-</ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text"># nom du site
-site_name=test_hugo
-</code></pre></div><ul>
-<li>site_url</li>
-</ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text"># url du site
-site_url=http://example.org/
-</code></pre></div><ul>
-<li>site_language</li>
-</ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text"># langue du site
-site_language=en-us
-</code></pre></div><ul>
-<li>site_title</li>
-</ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text"># titre du site
-site_title=&#34;My New Hugo Site&#34;
-</code></pre></div><ul>
-<li>theme_name</li>
-</ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text"># nom du thème
-theme_name=ananke
-</code></pre></div><ul>
-<li>theme_url</li>
-</ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text"># url du thème
-theme_url=https://github.com/budparr/gohugo-theme-ananke.git
-</code></pre></div><ul>
-<li>github_https</li>
-</ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text"># url du repo github
-github_https=https://github.com/psthely/hugo_test.git
-</code></pre></div><ul>
-<li>user_name</li>
-</ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text"># nom d&#39;utilisateur git
-user_name=psthely
-</code></pre></div><ul>
-<li>user_email</li>
-</ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text"># email d&#39;utilisateur git
-user_email=psthely.webdev@gmail.com
-</code></pre></div><h2 id="installer-hugo">installer Hugo</h2>
-<!-- raw HTML omitted -->
-<h3 id="pré-recquis">pré-recquis</h3>
-<ul>
-<li>installer git</li>
-</ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text"># installer git
-sudo apt-get install git
-</code></pre></div><ul>
-<li>installer snapd</li>
-</ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text"># installer snapd
-sudo apt-get install snapd
-</code></pre></div><ul>
-<li>ajouter /snap/bin/ à PATH (temporaire)</li>
-</ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text"># ajouter /snap/bin/ à PATH (temporaire)
-PATH=&#34;$PATH:/snap/bin/&#34;
-</code></pre></div><h3 id="installation">installation</h3>
-<ul>
-<li>installation</li>
-</ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text"># installer hugo
-snap install hugo
-</code></pre></div><h3 id="tests">tests</h3>
-<ul>
-<li>tests</li>
-</ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text"># test git
-git version
-# test snapd
-snap version
-# test hugo
-hugo version
-</code></pre></div><h2 id="créer-un-nouveau-site----test-oknok-creer_un_nouveau_site---ok----">créer un nouveau site <!-- raw HTML omitted --></h2>
-<h3 id="pré-recquis-1">pré-recquis</h3>
-<ul>
-<li>chemin d&rsquo;installation du site</li>
-</ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text"># chemin d&#39;installation du site
-echo $installation_path
-</code></pre></div><ul>
-<li>nom du site</li>
-</ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text"># nom du site
-echo $site_name
-</code></pre></div><ul>
-<li>url du site</li>
-</ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text"># url du site
-echo $site_url
-</code></pre></div><ul>
-<li>langue du site</li>
-</ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text"># langue du site
-echo $site_language
-</code></pre></div><ul>
-<li>titre du site</li>
-</ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text"># titre du site
-echo $site_title
-</code></pre></div><h3 id="créer-un-nouveau-site-hugo">créer un nouveau site hugo</h3>
-<ul>
-<li>créer un nouveau site hugo</li>
-</ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text"># créer un nouveau site hugo
-cd $installation_path
-hugo new site $site_name
-cd $site_name
-echo &#39;baseURL = &#34;&#39;$site_url&#39;&#34;&#39; &gt; config.toml
-echo &#39;languageCode = &#34;&#39;$site_language&#39;&#34;&#39; &gt;&gt; config.toml
-echo &#39;title = &#34;&#39;$site_title&#39;&#34;&#39; &gt;&gt; config.toml
-</code></pre></div><h2 id="utiliser-un-thème----test-oknok-utiliser_un_theme--ok----">utiliser un thème <!-- raw HTML omitted --></h2>
-<h3 id="pré-recquis-2">pré-recquis</h3>
-<ul>
-<li>
-<p><a href="https://themes.gohugo.io/gohugo-theme-ananke/">site du thème ananke</a></p>
-</li>
-<li>
-<p>nom du thème</p>
-</li>
-</ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text"># nom du thème
-echo $theme_name
-</code></pre></div><ul>
-<li>url du thème</li>
-</ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text"># url du thème
-echo $theme_url
-</code></pre></div><h3 id="installer-le-thème">installer le thème</h3>
-<ul>
-<li>initialiser git</li>
-</ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text"># initialiser git
-cd $installation_path; cd $site_name
-git init
-</code></pre></div><ul>
-<li>ajouter le sous-module git du thème</li>
-</ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text"># ajouter le sous-module git du thème
-git submodule add $theme_url themes/$theme_name
-</code></pre></div><ul>
-<li>activer le thème dans &ldquo;config.toml&rdquo;</li>
-</ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text"># activer le thème dans config.toml
-echo &#39;theme = &#34;&#39;$theme_name&#39;&#34;&#39; &gt;&gt; config.toml
-</code></pre></div><h2 id="ajouter-un-article-de-blog----test-oknok-ajouter_un_article_de_blog--ok---">ajouter un article de blog <!-- raw HTML omitted --></h2>
-<ul>
-<li>ajouter un article de blog</li>
-</ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text"># ajouter un article de blog
-hugo new posts/new_draft_post.md
-</code></pre></div><h2 id="générer-le-site-statique----test-oknok-generer_le_site_statique--ok---">générer le site statique <!-- raw HTML omitted --></h2>
-<ul>
-<li>générer le site statique</li>
-</ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text"># générer le site statique
-hugo
-</code></pre></div><ul>
-<li>rendre un article visible</li>
-</ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text"># rendre un article visible :
-# modifier le champ &#34;draft&#34; à &#34;false&#34; :
-# draft = false
-</code></pre></div><h2 id="démarrer-un-serveur-local----test-oknok-demarrer_un_serveur_local--ok----">démarrer un serveur local <!-- raw HTML omitted --></h2>
-<ul>
-<li>démarrer un serveur local</li>
-</ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text"># démarrer un serveur local
-# hugo server
-</code></pre></div><ul>
-<li>prendre en compte les brouillons</li>
-</ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text"># prendre en compte les brouillons
-# hugo server -D
-</code></pre></div><h2 id="publier-sur-github----test-oknok-publier_sur_github--ok---">publier sur github <!-- raw HTML omitted --></h2>
-<h3 id="pré-recquis-3">pré-recquis</h3>
-<ul>
-<li>url du dépôt github</li>
-</ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text"># url du dépôt github
-echo $github_https
-</code></pre></div><ul>
-<li>configuration de git</li>
-</ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text"># git user.name
-git config --global user.name &#34;$user_name&#34;
-# git user.email
-git config --global user.email &#34;$user_email&#34;
-</code></pre></div><h3 id="publier-sur-github">publier sur github</h3>
-<ul>
-<li>ajouter l&rsquo;origine du dossier &ldquo;public/&rdquo;</li>
-</ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text"># ajouter l&#39;origine du dossier &#34;public/&#34;
-cd $installation_path; cd $site_name
-cd public
-git init
-git remote add origin $github_https
-</code></pre></div><ul>
-<li>créer un script de déploiement sur github</li>
-</ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text"># créer un script de déploiement sur github
-cd $installation_path; cd $site_name
-touch deploy.sh
-echo &#34;cd public&#34; &gt; deploy.sh
-echo &#34;git add *; git commit -m \&#34;`date` : trigger automatic push\&#34;&#34; &gt;&gt; deploy.sh
-echo &#34;git push -u origin master&#34; &gt;&gt; deploy.sh
-sudo chmod +x deploy.sh
-</code></pre></div><h2 id="déployer-sur-netlify----test-oknok-deployer_sur_netlify--ok---">déployer sur netlify <!-- raw HTML omitted --></h2>
-<ul>
-<li>lier un nom de domaine au repo github</li>
-</ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text"># TODO pas encore en ligne de commande
-# lier un nom de domaine au repo github :
-# créer un nouveau site sur netlify
-# le lier à l&#39;url du repo github
-</code></pre></div><ul>
-<li>lancer le déploiement</li>
-</ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text"># TODO pas encore en ligne de commande
-# sur la page du site netlify cliquer sur &#34;trigger deploy&#34;
-</code></pre></div><ul>
-<li>publier</li>
-</ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text"># TODO pas encore en ligne de commande
-# si la publication automatique n&#39;est pas activée,
-# cliquer sur &#34;publish&#34;
-</code></pre></div><ul class="pa0">
-  
-   <li class="list">
-     <a href="/tags/g%C3%A9n%C3%A9rateurs-de-sites-statiques" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Générateurs de sites statiques</a>
-   </li>
-  
-</ul>
-<div class="mt6 instapaper_ignoref">
-      
-      
-      </div>
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa4 gray overflow-hidden">
+    <span class="f6 db">Articles</span>
+    <h1 class="f3 near-black">
+      <a href="https://philippesthely.netlify.com/articles/html5_css3/" class="link black dim">
+        HTML et CSS
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      HTML et CSS, les bases
     </div>
+  </div>
+</div>
+</div>
+      
+    </section>
 
-    <aside class="w-30-l mt6-l">
+<ul class="pagination">
+    
+    <li class="page-item">
+        <a href="/articles/" class="page-link" aria-label="First"><span aria-hidden="true">&laquo;&laquo;</span></a>
+    </li>
+    
+    <li class="page-item">
+    <a href="/articles/page/3/" class="page-link" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>
+    </li>
+    
+    
+    
+    
+    
+    
+    
+        
+        
+    
+    
+    <li class="page-item"><a class="page-link" href="/articles/">1</a></li>
+    
+    
+    
+    
+    
+    
+        
+        
+    
+    
+    <li class="page-item"><a class="page-link" href="/articles/page/2/">2</a></li>
+    
+    
+    
+    
+    
+    
+        
+        
+    
+    
+    <li class="page-item"><a class="page-link" href="/articles/page/3/">3</a></li>
+    
+    
+    
+    
+    
+    
+        
+        
+    
+    
+    <li class="page-item active"><a class="page-link" href="/articles/page/4/">4</a></li>
+    
+    
+    <li class="page-item disabled">
+    <a  class="page-link" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
+    </li>
+    
+    <li class="page-item">
+        <a href="/articles/page/4/" class="page-link" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
+    </li>
+    
+</ul>
 
-
-
-
-</aside>
-
-  </article>
+</article>
 
     </main>
     <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
