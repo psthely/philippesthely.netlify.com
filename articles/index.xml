@@ -6,10 +6,19 @@
     <description>Recent content in Articles on Philippe Sthely</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Mon, 18 May 2020 12:47:19 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 21 May 2020 19:49:25 +0200</lastBuildDate>
     
 	<atom:link href="https://philippesthely.netlify.com/articles/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The lorem_ipsum GitHub repository</title>
+      <link>https://philippesthely.netlify.com/articles/lorem_ipsum_repository/</link>
+      <pubDate>Thu, 21 May 2020 19:49:25 +0200</pubDate>
+      
+      <guid>https://philippesthely.netlify.com/articles/lorem_ipsum_repository/</guid>
+      <description>lorem_ipsum project update 0.4.2</description>
+    </item>
     
     <item>
       <title>Lorem Ipsum Web Page</title>
