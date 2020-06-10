@@ -1,31 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://philippesthely.netlify.com/</loc>
-    <lastmod>2020-05-21T19:49:25+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://philippesthely.netlify.com/articles/</loc>
-    <lastmod>2020-05-21T19:49:25+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://philippesthely.netlify.com/tags/stack-web/</loc>
-    <lastmod>2020-05-21T19:49:25+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://philippesthely.netlify.com/tags/</loc>
-    <lastmod>2020-05-21T19:49:25+02:00</lastmod>
+    <loc>https://philippesthely.netlify.com/articles/lorem_ipsum-0.4.3/</loc>
+    <lastmod>2020-06-10T14:16:34+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -73,20 +52,6 @@
   </url>
   
   <url>
-    <loc>https://philippesthely.netlify.com/tags/d%C3%A9ploiement-continu/</loc>
-    <lastmod>2020-04-12T14:30:36+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://philippesthely.netlify.com/tags/g%C3%A9n%C3%A9rateurs-de-sites-statiques/</loc>
-    <lastmod>2020-04-12T14:30:36+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://philippesthely.netlify.com/articles/twitch_project/</loc>
     <lastmod>2020-04-12T14:30:36+02:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -94,22 +59,8 @@
   </url>
   
   <url>
-    <loc>https://philippesthely.netlify.com/tags/autre/</loc>
-    <lastmod>2020-04-05T17:31:53+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://philippesthely.netlify.com/articles/algo_algo/</loc>
     <lastmod>2020-04-05T17:31:53+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://philippesthely.netlify.com/tags/javascript/</loc>
-    <lastmod>2020-04-04T14:17:15+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -143,9 +94,65 @@
   </url>
   
   <url>
-    <loc>https://philippesthely.netlify.com/categories/</loc>
+    <loc>https://philippesthely.netlify.com/</loc>
+    <lastmod>2020-06-10T14:16:34+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://philippesthely.netlify.com/articles/</loc>
+    <lastmod>2020-06-10T14:16:34+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://philippesthely.netlify.com/tags/autre/</loc>
+    <lastmod>2020-04-05T17:31:53+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://philippesthely.netlify.com/categories/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://philippesthely.netlify.com/tags/d%C3%A9ploiement-continu/</loc>
+    <lastmod>2020-04-12T14:30:36+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://philippesthely.netlify.com/tags/g%C3%A9n%C3%A9rateurs-de-sites-statiques/</loc>
+    <lastmod>2020-04-12T14:30:36+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://philippesthely.netlify.com/tags/javascript/</loc>
+    <lastmod>2020-04-04T14:17:15+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://philippesthely.netlify.com/tags/stack-web/</loc>
+    <lastmod>2020-06-10T14:16:34+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://philippesthely.netlify.com/tags/</loc>
+    <lastmod>2020-04-05T17:31:53+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
   </url>
   
 </urlset>

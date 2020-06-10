@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Déploiement continu on Philippe Sthely</title>
+    <title>Déploiement Continu on Philippe Sthely</title>
     <link>https://philippesthely.netlify.com/tags/d%C3%A9ploiement-continu/</link>
-    <description>Recent content in Déploiement continu on Philippe Sthely</description>
+    <description>Recent content in Déploiement Continu on Philippe Sthely</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
     <lastBuildDate>Sun, 12 Apr 2020 14:30:36 +0200</lastBuildDate>
@@ -17,7 +17,9 @@
       <pubDate>Sun, 12 Apr 2020 14:30:36 +0200</pubDate>
       
       <guid>https://philippesthely.netlify.com/articles/twitch_project/</guid>
-      <description>Je démarre une chaîne Twitch</description>
+      <description>Ma chaîne Twitch Ma chaîne Youtube  Ces derniers jours, je diffuse mon travail sur Twitch en direct tous les soirs à partir de 21h. Les diffusions sont également présentes sur ma chaîne Youtube.
+Le principe est de découvrir des technologies Front-End, frameworks, générateurs de sites statiques, et de construire des pages ou des sites Web.
+Je choisis une technologie, j&amp;rsquo;explore la documentation et j&amp;rsquo;essaye de l&amp;rsquo;utiliser. Je ne prépare pas les diffusions, donc je fais face aux problèmes que je rencontre, ça peut être laborieux quelques fois.</description>
     </item>
     
   </channel>

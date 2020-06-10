@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Générateurs de sites statiques on Philippe Sthely</title>
+    <title>Générateurs De Sites Statiques on Philippe Sthely</title>
     <link>https://philippesthely.netlify.com/tags/g%C3%A9n%C3%A9rateurs-de-sites-statiques/</link>
-    <description>Recent content in Générateurs de sites statiques on Philippe Sthely</description>
+    <description>Recent content in Générateurs De Sites Statiques on Philippe Sthely</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
     <lastBuildDate>Sun, 12 Apr 2020 14:30:36 +0200</lastBuildDate>
@@ -17,7 +17,9 @@
       <pubDate>Sun, 12 Apr 2020 14:30:36 +0200</pubDate>
       
       <guid>https://philippesthely.netlify.com/articles/twitch_project/</guid>
-      <description>Je démarre une chaîne Twitch</description>
+      <description>Ma chaîne Twitch Ma chaîne Youtube  Ces derniers jours, je diffuse mon travail sur Twitch en direct tous les soirs à partir de 21h. Les diffusions sont également présentes sur ma chaîne Youtube.
+Le principe est de découvrir des technologies Front-End, frameworks, générateurs de sites statiques, et de construire des pages ou des sites Web.
+Je choisis une technologie, j&amp;rsquo;explore la documentation et j&amp;rsquo;essaye de l&amp;rsquo;utiliser. Je ne prépare pas les diffusions, donc je fais face aux problèmes que je rencontre, ça peut être laborieux quelques fois.</description>
     </item>
     
     <item>
@@ -26,7 +28,9 @@
       <pubDate>Sat, 14 Mar 2020 04:02:07 -0700</pubDate>
       
       <guid>https://philippesthely.netlify.com/articles/ananke_theme/</guid>
-      <description>Installer et configurer le thème Ananke pour Hugo (script complet)</description>
+      <description>Vidéo Youtube - Exécution du script GitHub du script shell Attention: lisez et modifiez le script avant de l&amp;rsquo;exécuter; adaptez le à votre utilisation  Sur mon dernier post hugo, j&amp;rsquo;utilise le thème ananke. Retrouvez le README GitHub du thème ici
+Voyons ce qu&amp;rsquo;on peut faire avec ce thème.
+Configuration Dans le dossier du thème, on retrouve le dossier exampleSite, qui est configuré pour tester les possibilités du thème.</description>
     </item>
     
     <item>
@@ -35,7 +39,8 @@
       <pubDate>Fri, 13 Mar 2020 00:57:21 -0700</pubDate>
       
       <guid>https://philippesthely.netlify.com/articles/hugo/</guid>
-      <description>Initialiser et déployer Hugo pas à pas avec un script</description>
+      <description>Vidéo Youtube - Initialiser un site Hugo GitHub du script shell Attention: lisez et modifiez le script avant de l&amp;rsquo;exécuter; adaptez le à votre utilisation  créer et déployer un nouveau site hugo  vous devez modifier les données avant d&amp;rsquo;exécuter le script
+ données du script  installation_path  # dossier d&#39;installation du site installation_path=~/   site_name  # nom du site site_name=test_hugo   site_url  # url du site site_url=http://example.</description>
     </item>
     
   </channel>

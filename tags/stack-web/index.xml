@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Stack Web on Philippe Sthely</title>
@@ -6,10 +6,21 @@
     <description>Recent content in Stack Web on Philippe Sthely</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Thu, 21 May 2020 19:49:25 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jun 2020 14:16:34 +0200</lastBuildDate>
     
 	<atom:link href="https://philippesthely.netlify.com/tags/stack-web/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>JavaScript component renderer</title>
+      <link>https://philippesthely.netlify.com/articles/lorem_ipsum-0.4.3/</link>
+      <pubDate>Wed, 10 Jun 2020 14:16:34 +0200</pubDate>
+      
+      <guid>https://philippesthely.netlify.com/articles/lorem_ipsum-0.4.3/</guid>
+      <description>Demo sur Netlify
+La version 0.4 de lorem_ipsum a évoluée sur plusieurs points: - les composant .mjs retournent maintenant des objets HTMLElement - la fonction render(components) a été modifiée pour prendre en charge l&amp;rsquo;affichage des composants HTMLElement - le paramètre components de render est un tableau de clés-valeurs comprenant le composant à afficher ainsi que le conteneur de ce composant
+Le CSS est complètement défini par des classes Tachyons déclarées dans le .</description>
+    </item>
     
     <item>
       <title>The lorem_ipsum GitHub repository</title>
@@ -17,7 +28,7 @@
       <pubDate>Thu, 21 May 2020 19:49:25 +0200</pubDate>
       
       <guid>https://philippesthely.netlify.com/articles/lorem_ipsum_repository/</guid>
-      <description>lorem_ipsum project update 0.4.2</description>
+      <description>the GitHub repository  The v0.4 has evolved to be more flexible rendering the components and declare attributes to the HTML elements.</description>
     </item>
     
     <item>
@@ -26,7 +37,8 @@
       <pubDate>Mon, 18 May 2020 12:47:19 +0200</pubDate>
       
       <guid>https://philippesthely.netlify.com/articles/lorem_ipsum-0.4/</guid>
-      <description>The fourth version of the Lorem Ipsum Web page, fully generated with JavaScript and kinds of components.</description>
+      <description>The Netlify demo site  The GitHub repository  Well, the first version of Lorem Ipsum was only using HTML and CSS. The other versions uses JavaScript to manage data and components.
+This version is similar with 0.3, each component have its own .js and .css, but the main JavaScript code to generate the Web page is now described in index.html. The &amp;ldquo;app&amp;rdquo; uses different variables for ids and classes to use in the components .</description>
     </item>
     
     <item>
@@ -35,7 +47,9 @@
       <pubDate>Sun, 10 May 2020 13:53:55 +0200</pubDate>
       
       <guid>https://philippesthely.netlify.com/articles/lorem_ipsum/</guid>
-      <description>A lorem ipsum HTML/CSS page, v0.1</description>
+      <description>I created a new repository (lorem_ipsum) on github with a lorem_ipsum-0.1 named directory.
+The lorem_ipsum repository is a simple project with Web pages I created, using various technologies. This first version uses only HTML and CSS.
+ The Netlify static site The GitHub repository  </description>
     </item>
     
     <item>
@@ -44,7 +58,11 @@
       <pubDate>Sun, 03 May 2020 16:15:03 +0200</pubDate>
       
       <guid>https://philippesthely.netlify.com/articles/wsl_doc/</guid>
-      <description>Setup and use the WSL in VS Code.</description>
+      <description>Enable Windows Subsystem for Linux and install a distribution Open PowerShell with administrator privileges, then run:
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux  Restart Windows.
+Install Ubuntu from the Microsoft Store and run it; you&amp;rsquo;ll be prompt to create an account. Then update Ubuntu:
+sudo apt update &amp;amp;&amp;amp; sudo apt upgrade  Integration between Windows and Linux file systems Create a directory called LearnWSL into the user&amp;rsquo;s home directory:
+cd ~ mkdir LearnWSL  Then create an html file into that directory:</description>
     </item>
     
     <item>
@@ -53,7 +71,8 @@
       <pubDate>Mon, 20 Apr 2020 13:54:02 +0200</pubDate>
       
       <guid>https://philippesthely.netlify.com/articles/create_react_app/</guid>
-      <description>Démarrer une nouvelle application React.</description>
+      <description>Je souhaite mettre en place un nouvel environnement de développement pour créer une application web React. Le moyen le plus simple est d&amp;rsquo;utiliser le package create-react-app qui fournit tous les outils nécessaires à la création d&amp;rsquo;applications React. C&amp;rsquo;est un point de départ intéressant à plus d&amp;rsquo;un titre.
+Mes outils de développement Je travail actuellement sur Windows 10, avec le sous-système Windows pour Linux Ubuntu 18.04LTS, Visual Studio Code avec le remote WSL et Microsoft Edge.</description>
     </item>
     
     <item>
@@ -62,7 +81,9 @@
       <pubDate>Fri, 17 Apr 2020 17:53:45 +0200</pubDate>
       
       <guid>https://philippesthely.netlify.com/articles/react_component_library/</guid>
-      <description>Je m&amp;rsquo;intéresse actuellement à React. Dans ce cadre, je souhaite créer une bibliothèque de composants d&amp;rsquo;interface.</description>
+      <description>React est assez incroyable à utiliser. Je découvre actuellement les possibilités de création d&amp;rsquo;interface qu&amp;rsquo;offre cet outil.
+Grâce à mon background de développeur Java, et plus généralement de la logique orientée objet, React me permet d&amp;rsquo;utiliser la conception objet dans le développement Front. J&amp;rsquo;imagine toute la puissance que permet une telle approche dans la création d&amp;rsquo;interfaces Web.
+Je cherche depuis quelques temps un projet qui me permette d&amp;rsquo;utiliser React. J&amp;rsquo;ai choisi de créer une bibliothèque de composants (il en existe certainement beaucoup, je n&amp;rsquo;ai pas fais de recherches) qui soit simple à utiliser et à intégrer.</description>
     </item>
     
     <item>
@@ -71,7 +92,9 @@
       <pubDate>Sun, 12 Apr 2020 14:30:36 +0200</pubDate>
       
       <guid>https://philippesthely.netlify.com/articles/twitch_project/</guid>
-      <description>Je démarre une chaîne Twitch</description>
+      <description>Ma chaîne Twitch Ma chaîne Youtube  Ces derniers jours, je diffuse mon travail sur Twitch en direct tous les soirs à partir de 21h. Les diffusions sont également présentes sur ma chaîne Youtube.
+Le principe est de découvrir des technologies Front-End, frameworks, générateurs de sites statiques, et de construire des pages ou des sites Web.
+Je choisis une technologie, j&amp;rsquo;explore la documentation et j&amp;rsquo;essaye de l&amp;rsquo;utiliser. Je ne prépare pas les diffusions, donc je fais face aux problèmes que je rencontre, ça peut être laborieux quelques fois.</description>
     </item>
     
     <item>
@@ -80,7 +103,10 @@
       <pubDate>Sat, 04 Apr 2020 14:17:15 +0200</pubDate>
       
       <guid>https://philippesthely.netlify.com/articles/string_analysis/</guid>
-      <description>Un simple programme javascript pour manipuler le DOM</description>
+      <description>Lien vers le fichier sur GitHub
+Ce petit programme JavaScript prend une chaîne de caractères en entrée, l&amp;rsquo;analyse puis affiche des informations sur les résultats obtenus.
+Le but ici est de manipuler le DOM avec du JavaScript basique. Des pistes d&amp;rsquo;améliorations :
+ prendre en compte les caractères spéciaux dans le comptage de mots utiliser un dictionnaire de mots pour la saisie prédictive afficher les résultats dans un tableau HTML au lieu d&amp;rsquo;une zone de texte  &amp;lt;!</description>
     </item>
     
     <item>
@@ -89,7 +115,8 @@
       <pubDate>Tue, 10 Mar 2020 07:17:33 -0700</pubDate>
       
       <guid>https://philippesthely.netlify.com/articles/html5_css3/</guid>
-      <description>HTML et CSS, les bases</description>
+      <description>Voir le projet sur Codepen
+Structure de base d&amp;rsquo;une page HTML5 &amp;lt;DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;quot;utf-8&amp;quot; /&amp;gt; &amp;lt;title&amp;gt;Titre de la page&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;!-- contenu de la page --&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt;  Ajouter du contenu à la page &amp;lt;body&amp;gt; &amp;lt;h1&amp;gt;Titre de niveau 1&amp;lt;/h1&amp;gt; &amp;lt;h2&amp;gt;Titre de niveau 2&amp;lt;/h2&amp;gt; &amp;lt;p&amp;gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin venenatis feugiat velit, quis commodo quam gravida in. Fusce ullamcorper laoreet ante in feugiat.</description>
     </item>
     
   </channel>
