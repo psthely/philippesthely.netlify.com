@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Autre on Philippe Sthely</title>
@@ -17,8 +17,7 @@
       <pubDate>Sun, 05 Apr 2020 17:31:53 +0200</pubDate>
       
       <guid>https://philippesthely.netlify.com/articles/algo_algo/</guid>
-      <description>Un algorithme est une suite d&amp;rsquo;instructions dont le but est de répondre à un problème bien défini. Un algorithme est correct si le résultat qu&amp;rsquo;il fournit est en adéquation avec les résultats d&amp;rsquo;un jeu de test prédéfinit à l&amp;rsquo;avance. Autrement dit, les résultats d&amp;rsquo;exécution de l&amp;rsquo;algorithme correspondent bien à ce qu&amp;rsquo;on attendait.
-Cela présuppose d&amp;rsquo;un travail de réflexion en ammont. On peut créer un algorithme dont le but est de créer des algorithmes corrects.</description>
+      <description>Un algorithme qui permet de résoudre un algorithme</description>
     </item>
     
   </channel>
